@@ -92,6 +92,14 @@ html {
   align-items: center;
 }
 
+.light {
+  left: 0;
+}
+
+.dark {
+  right: 0;
+}
+
 .form-wrapper-right {
   width: 60%;
 }
