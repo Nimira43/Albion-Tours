@@ -16,7 +16,8 @@ html {
 :root {
   --dark: #111;
   --light: #fefefe;
-  --grey: #eee;
+  --grey-lg: #eee;
+  --grey-dk: #999;
   --orange-1: #ffa500;
   --orange-2: #ff4500;
   --night-1: #4b0082;
@@ -64,7 +65,7 @@ html {
   width: 20rem;
   height: 4rem;
   color: var(--dark);
-  background-color: var(--grey);
+  background-color: var(--grey-lg);
   border: none;
   border-radius: 1rem;
   font-weight: 1.4rem;
@@ -102,4 +103,47 @@ html {
 
 .form-wrapper-right {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 0
 }
+
+.form-wrapper-right h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  color: var(--dark);
+}
+
+.field {
+  width: 30rem;
+  height: 5rem;
+  border: none;
+  border-bottom: 0.1rem dotted var(--dark);
+  font-size: 1.4rem;
+  color: var(--dark);
+  background-color: transparent;
+}
+
+.field::placeholder {
+  color: var(--grey-dk);
+  font-size: 1.4rem;
+}
+
+.form-wrapper-right .message {
+  height: 10rem;
+  resize: none;
+}
+
+.form-wrapper-right button {
+  width: 30rem;
+  height: 4.5rem;
+  background-color: var(--grey-lg);
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  color: var(--dark);
+  cursor: pointer;
+}
+
