@@ -15,10 +15,12 @@ html {
 
 :root {
   --dark: #111;
-  --light: #eee;
-  --orange: orange;
-  --indigo: indigo;
-  --grey: #666;
+  --light: #fefefe;
+  --grey: #eee;
+  --orange-1: #ffa500;
+  --orange-2: #ff4500;
+  --night-1: #4b0082;
+  --night-2: #00008b;
 }
 
 .container {
@@ -46,6 +48,48 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 10rem 0 20rem 0;
+}
+
+.sun-moon {
+  width: 12rem;
+  height: 12rem;
+  background: linear-gradient(
+    225deg,
+    var(--orange-1),
+    var(--orange-2));
+  border-radius: 50%;
+}
+
+.form-wrapper-left button {
+  width: 20rem;
+  height: 4rem;
+  color: var(--dark);
+  background-color: var(--grey);
+  border: none;
+  border-radius: 1rem;
+  font-weight: 1.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.form-wrapper-left button span{
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.bg {
+  background-color: var(--light);
+  border-radius: 1rem;
+  left: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.light, .dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-wrapper-right {
