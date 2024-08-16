@@ -144,6 +144,10 @@ html {
   border-radius: 1rem;
   font-size: 1.4rem;
   color: var(--dark);
-  cursor: pointer;
+  cursor: pointer; 
+  transition: transform 0.3s ease;
 }
 
+.form-wrapper-right button:active {
+  transform: translateY(0.2rem);
+}
