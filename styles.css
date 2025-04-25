@@ -14,6 +14,17 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --main: blue;
+  --support: yellow;
+  --dark: #111;
+  --light: #fffcfa;
+  --grey-dark: #333;
+  --grey-medium: #999;
+  --grey-light: #ccc;
+  --grey-light-extra: #eee;
+}
+
 .container {
   width: 100%;
   height: 100%;
