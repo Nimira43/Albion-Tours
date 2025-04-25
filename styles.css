@@ -15,8 +15,8 @@ html {
 }
 
 :root {
-  --main: blue;
-  --support: yellow;
+  --main: #2a2af5;
+  --support: #ffe100;
   --dark: #111;
   --light: #fffcfa;
   --grey-dark: #333;
@@ -58,6 +58,20 @@ html {
 .logo-text {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: center; 
 }
 
+.logo-text span:nth-child(1) {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  color: var(--main)
+}
+
+.logo-text span:nth-child(2) {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: var(--dark);
+  margin-top: -0.7rem
+}
