@@ -48,3 +48,9 @@ html {
   align-items: center;
   cursor: pointer;
 }
+
+.logo i {
+  font-size: 4rem;
+  color: var(--dark);
+  margin-right: 1rem;
+}
