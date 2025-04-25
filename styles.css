@@ -54,3 +54,10 @@ html {
   color: var(--dark);
   margin-right: 1rem;
 }
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
