@@ -11,13 +11,14 @@ const swiper = new Swiper('.swiper', {
   }
 })
 
-let menu = document.querySelector.Selector('.menu')
-let nums = document.querySelector.Selector('.num')
+let menu = document.querySelector('.menu')
+let nums = document.querySelectorAll('.num')
 let start = false
 
 window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.navbar')
   navbar.classList.toggle('sticky', window.scrollY > 0)
+  
   if (window.scrollY >= menu.offsetTop) {
     if (!start) {
       nums.forEach((num) => startCount(num))
@@ -25,3 +26,11 @@ window.addEventListener('scroll', () => {
     start = true
   }
 })
+
+const startCount = (el) => {
+  let max = el.dataset.val
+  let count = setInterval(() => {
+    el.textContent++
+    if (el.textContent === max) clearInterval(count)
+  }, 2000 / nums)
+}
