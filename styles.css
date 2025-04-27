@@ -22,3 +22,9 @@ html {
   --postgres: #336791;
   --code: #ff4500;
 }
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
