@@ -44,3 +44,14 @@ html {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
+
+.box {
+  position: relative;
+  cursor: pointer;
+}
+
+.box-1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background-color: var(--twitch)
+}
