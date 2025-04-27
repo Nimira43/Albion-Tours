@@ -133,6 +133,13 @@ html {
   text-align: center;
 }
 
+.main-heading {
+  font-size: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
 @media (max-width: 1500px) {
   html {
     font-size: 55%;
