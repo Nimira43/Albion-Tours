@@ -15,8 +15,9 @@ html {
 }
 
 :root {
-  --main: #2a2af5;
-  --support: #ffe100;
+  --primary: #066f06;
+  --secondary: #2a2af5;
+  --tertiary: #ffe100;
   --dark: #111;
   --light: #fffcfa;
   --grey-dark: #333;
@@ -51,7 +52,7 @@ html {
 
 .logo i {
   font-size: 4rem;
-  color: var(--dark);
+  color: var(--primary);
   margin-right: 1rem;
 }
 
@@ -61,17 +62,17 @@ html {
   text-align: center; 
 }
 
-.logo-text span:nth-child(1) {
+.logo-text span {
   font-family: 'Great Vibes', cursive;
-  font-size: 1.4rem;
+  font-weight: 600;
   letter-spacing: 0.1rem;
-  color: var(--main)
+  color: var(--primary)
+}
+
+.logo-text span:nth-child(1) {
+  font-size: 2rem;
 }
 
 .logo-text span:nth-child(2) {
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  color: var(--dark);
-  margin-top: -0.7rem
+  font-size: 1.4rem;
 }
