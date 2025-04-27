@@ -20,4 +20,21 @@ ul li {
   color: #fff;
   font-size: 80px;
   letter-spacing: 15px;
+  animation: lighting 1.4s linear infinite;
+}
+
+@keyframes lighting {
+  0% {
+    color: #fff;
+    text-shadow: none;
+  }
+  90% {
+    color: #fff;
+    text-shadow: none;
+  }
+  100% {
+    color: #ff4500;
+    text-shadow: 0 0 7px #ff4500,
+                 0 0 50px #ffd700;
+  }
 }
