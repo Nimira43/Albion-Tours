@@ -96,4 +96,20 @@ html {
   font-size: 1.8rem;
 }
 
+.navigation a:last-child::after {
+  content: '1';
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--tertiary);
+  border-radius: 50%;
+  position: absolute;
+  top: -1.5rem;
+  left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+  font-size: 1.2rem;
+  font-weight: 400;
 
+}
