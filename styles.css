@@ -130,3 +130,19 @@ html {
     font-size: 45%;
   }
 }
+
+@media (max-width: 900px) {
+  
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 35%
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    display: none;
+  }
+}
