@@ -10,3 +10,7 @@ const swiper = new Swiper('.swiper', {
     clickable: true,
   }
 })
+
+let menu = document.querySelector.Selector('.menu')
+let nums = document.querySelector.Selector('.num')
+let start = false
