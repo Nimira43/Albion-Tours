@@ -91,3 +91,9 @@ html {
 .navigation a:hover {
   color: var(--secondary);
 }
+
+.naviagation a:last-child {
+  font-size: 1.8rem;
+}
+
+
