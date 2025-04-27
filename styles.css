@@ -85,7 +85,7 @@ html {
   margin-right: 3rem;
   letter-spacing: 0.2rem;
   position: relative;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 
 .navigation a:hover {
