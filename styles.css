@@ -124,7 +124,14 @@ html {
   position: relative;
 }
 
-
+.banner {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  text-align: center;
+}
 
 @media (max-width: 1500px) {
   html {
