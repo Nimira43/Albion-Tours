@@ -24,6 +24,7 @@ html {
   --dark-orange: #491401;
   --dark-teal: #012222;
   --dark: #111;
+  --light: #fff;
 }
 
 .container {
@@ -98,3 +99,11 @@ html {
   background-color: var(--code)
 }
 
+.box i {
+  font-size: clamp(2rem, 6cqi, 6rem);
+  color: var(--light);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
