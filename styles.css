@@ -44,6 +44,11 @@ html {
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
 
+.sticky.navbar {
+  height: 8rem;
+  background-color: var(--grey-light-extra);  
+}
+
 .logo {
   display: flex;
   align-items: center;
